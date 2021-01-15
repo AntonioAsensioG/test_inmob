@@ -1,0 +1,413 @@
+Zone,Type,Is_New,Is_Ext,Has_Lift,Has_Parking,Bathrooms,Size_Interval,Floor,Offers,Price_m2_med,Price_m2_mean,Price_med,Price_mean,Rooms_med,Year,Month,Week,Category,Zone_Catg
+San Cristobal,flat,False,True,False,False,1,"(60, 70]",int,18,1333,1342,89450,87922,3.00,2021,M01,W02,fe65b1,San Cristobal fe65b1
+San Diego,flat,False,True,False,False,1,"(50, 60]",int,16,1675,1654,90000,91271,2.00,2021,M01,W02,fe55b1,San Diego fe55b1
+Entrevias,flat,False,True,False,False,1,"(60, 70]",int,13,1390,1381,94000,92442,3.00,2021,M01,W02,fe65b1,Entrevias fe65b1
+San Cristobal,flat,False,True,False,False,1,"(50, 60]",int,12,1348,1381,80920,81713,3.00,2021,M01,W02,fe55b1,San Cristobal fe55b1
+San Andres,flat,False,True,False,False,1,"(60, 70]",int,11,1427,1402,96100,92454,3.00,2021,M01,W02,fe65b1,San Andres fe65b1
+San Andres,flat,False,True,False,False,1,"(50, 60]",int,10,1545,1563,89950,89488,2.00,2021,M01,W02,fe55b1,San Andres fe55b1
+Amposta,flat,False,True,False,False,1,"(50, 60]",int,10,1773,1700,93630,92705,2.00,2021,M01,W02,fe55b1,Amposta fe55b1
+Amposta,flat,False,True,False,False,1,"(40, 50]",int,10,1775,1771,84500,83400,2.00,2021,M01,W02,fe45b1,Amposta fe45b1
+San Cristobal,flat,False,True,True,False,1,"(60, 70]",int,9,1286,1305,87000,88840,3.00,2021,M01,W02,fe65b1lf,San Cristobal fe65b1lf
+San Diego,flat,False,True,False,False,1,"(40, 50]",int,9,1854,1895,89000,87533,2.00,2021,M01,W02,fe45b1,San Diego fe45b1
+Casco Historico de Vallecas,flat,False,True,False,False,1,"(50, 60]",int,8,1616,1657,94000,93562,2.00,2021,M01,W02,fe55b1,Casco Historico de Vallecas fe55b1
+San Andres,flat,False,True,False,False,1,"(50, 60]",bj,7,1466,1492,85000,86285,2.00,2021,M01,W02,fe55b1bj,San Andres fe55b1bj
+Entrevias,flat,False,True,False,False,1,"(50, 60]",int,6,1562,1545,87000,89250,2.00,2021,M01,W02,fe55b1,Entrevias fe55b1
+Hellin,flat,False,True,False,False,1,"(40, 50]",int,6,1909,1949,94500,94833,2.00,2021,M01,W02,fe45b1,Hellin fe45b1
+Arcos,flat,False,True,False,False,1,"(50, 60]",int,6,1654,1684,94000,93250,3.00,2021,M01,W02,fe55b1,Arcos fe55b1
+Vista Alegre,flat,False,True,False,False,1,"(50, 60]",int,6,1778,1756,96000,96500,1.00,2021,M01,W02,fe55b1,Vista Alegre fe55b1
+Los Rosales,flat,False,True,False,False,1,"(50, 60]",int,6,1691,1641,95130,90043,2.00,2021,M01,W02,fe55b1,Los Rosales fe55b1
+Amposta,flat,False,True,False,False,1,"(40, 50]",bj,5,1840,1832,92000,87680,2.00,2021,M01,W02,fe45b1bj,Amposta fe45b1bj
+San Diego,flat,False,False,False,False,1,"(40, 50]",int,5,1778,1742,80000,81019,1.00,2021,M01,W02,f45b1,San Diego f45b1
+San Diego,flat,False,True,False,False,1,"(70, 80]",int,5,1244,1240,99000,96034,3.00,2021,M01,W02,fe75b1,San Diego fe75b1
+San Diego,flat,False,True,True,False,1,"(40, 50]",int,5,2040,1870,89758,85751,1.00,2021,M01,W02,fe45b1lf,San Diego fe45b1lf
+Entrevias,flat,False,True,False,False,1,"(70, 80]",int,5,1306,1275,94000,95100,3.00,2021,M01,W02,fe75b1,Entrevias fe75b1
+San Cristobal,flat,False,True,False,False,1,"(70, 80]",int,5,1176,1143,87000,84898,3.00,2021,M01,W02,fe75b1,San Cristobal fe75b1
+Hellin,flat,False,True,False,False,1,"(50, 60]",int,5,1709,1736,94000,96200,2.00,2021,M01,W02,fe55b1,Hellin fe55b1
+Palomeras Bajas,flat,False,True,False,False,1,"(50, 60]",int,5,1533,1516,92000,87120,2.00,2021,M01,W02,fe55b1,Palomeras Bajas fe55b1
+San Andres,flat,False,True,False,False,1,"(70, 80]",int,4,1287,1290,96500,96750,3.00,2021,M01,W02,fe75b1,San Andres fe75b1
+Numancia,flat,False,False,False,False,1,"(40, 50]",bj,4,1773,1830,78000,83250,1.00,2021,M01,W02,f45b1bj,Numancia f45b1bj
+Los Angeles,flat,False,True,False,False,1,"(50, 60]",int,4,1437,1460,84000,83225,2.00,2021,M01,W02,fe55b1,Los Angeles fe55b1
+Lavapies-Embajadores,flat,False,False,False,False,1,"(20, 30]",int,4,2991,3209,89250,85750,1.50,2021,M01,W02,f25b1,Lavapies-Embajadores f25b1
+San Andres,flat,False,False,False,False,1,"(60, 70]",bj,4,1331,1276,81200,80400,2.00,2021,M01,W02,f65b1bj,San Andres f65b1bj
+Numancia,flat,False,True,False,False,1,"(50, 60]",int,4,1635,1637,96500,95000,2.50,2021,M01,W02,fe55b1,Numancia fe55b1
+Puerta Bonita,flat,False,True,False,False,1,"(60, 70]",int,4,1505,1525,96500,96049,2.50,2021,M01,W02,fe65b1,Puerta Bonita fe65b1
+San Diego,flat,False,True,False,False,1,"(60, 70]",int,4,1439,1452,94000,94225,3.00,2021,M01,W02,fe65b1,San Diego fe65b1
+Ensanche de Vallecas - La Gavia,flat,False,True,True,1.0,1,"(40, 50]",int,4,1920,1918,95500,94500,1.00,2021,M01,W02,"flat_False_True_True_1.0_1_(40, 50]_int","Ensanche de Vallecas - La Gavia flat_False_True_True_1.0_1_(40, 50]_int"
+Casco Historico de Vallecas,flat,False,True,False,False,1,"(50, 60]",bj,4,1533,1623,90500,89250,2.00,2021,M01,W02,fe55b1bj,Casco Historico de Vallecas fe55b1bj
+Portazgo,flat,False,True,False,False,1,"(40, 50]",bj,4,1920,1808,96000,89374,2.00,2021,M01,W02,fe45b1bj,Portazgo fe45b1bj
+Palomeras sureste,flat,False,True,False,False,1,"(50, 60]",int,4,1601,1636,91200,93075,2.00,2021,M01,W02,fe55b1,Palomeras sureste fe55b1
+San Diego,flat,False,True,False,False,1,"(40, 50]",bj,4,1646,1695,71500,76750,2.00,2021,M01,W02,fe45b1bj,San Diego fe45b1bj
+San Cristobal,flat,False,False,False,False,1,"(50, 60]",int,3,1276,1319,74000,77833,3.00,2021,M01,W02,f55b1,San Cristobal f55b1
+San Diego,flat,False,False,True,False,1,"(50, 60]",bj,3,1667,1626,90000,88333,1.00,2021,M01,W02,"flat_False_False_True_False_1_(50, 60]_bj","San Diego flat_False_False_True_False_1_(50, 60]_bj"
+Casco Historico de Vallecas,flat,False,True,False,False,1,"(40, 50]",int,3,1900,1925,95000,95633,2.00,2021,M01,W02,fe45b1,Casco Historico de Vallecas fe45b1
+Casco Historico de Vallecas,flat,False,True,False,False,1,"(60, 70]",int,3,1581,1582,98000,98633,3.00,2021,M01,W02,fe65b1,Casco Historico de Vallecas fe65b1
+Simancas,flat,False,True,True,False,1,"(40, 50]",int,3,1860,1890,93000,94500,2.00,2021,M01,W02,fe45b1lf,Simancas fe45b1lf
+Simancas,flat,False,True,False,False,1,"(40, 50]",int,3,1850,1801,89900,84466,2.00,2021,M01,W02,fe45b1,Simancas fe45b1
+Bellas Vistas,flat,False,False,False,False,1,"(20, 30]",bj,3,3333,3644,98000,95333,2.00,2021,M01,W02,f25b1bj,Bellas Vistas f25b1bj
+Pinar del Rey,flat,False,True,False,False,1,"(30, 40]",bj,3,2541,2642,99000,97333,0.00,2021,M01,W02,fe35b1bj,Pinar del Rey fe35b1bj
+San Andres,flat,False,False,False,False,1,"(70, 80]",int,3,1253,1263,95000,96333,3.00,2021,M01,W02,f75b1,San Andres f75b1
+San Andres,flat,False,False,False,False,1,"(50, 60]",bj,3,1571,1536,88000,83600,2.00,2021,M01,W02,f55b1bj,San Andres f55b1bj
+Numancia,flat,False,True,False,False,1,"(30, 40]",int,3,2424,2389,80000,81333,1.00,2021,M01,W02,fe35b1,Numancia fe35b1
+Portazgo,flat,False,True,False,False,1,"(40, 50]",int,3,1980,1835,99000,88666,2.00,2021,M01,W02,fe45b1,Portazgo fe45b1
+Portazgo,flat,False,True,False,False,1,"(50, 60]",int,3,1659,1656,93000,93288,2.00,2021,M01,W02,fe55b1,Portazgo fe55b1
+Palomeras Bajas,flat,False,True,False,False,1,"(40, 50]",int,3,1876,1871,91900,92933,2.00,2021,M01,W02,fe45b1,Palomeras Bajas fe45b1
+Palomeras Bajas,flat,False,True,False,False,1,"(40, 50]",bj,3,1970,1906,86700,90233,2.00,2021,M01,W02,fe45b1bj,Palomeras Bajas fe45b1bj
+Pradolongo,flat,False,True,False,False,1,"(50, 60]",int,3,1633,1647,98000,95000,2.00,2021,M01,W02,fe55b1,Pradolongo fe55b1
+Puerta Bonita,flat,False,True,False,False,1,"(40, 50]",bj,3,1976,1798,83000,84000,2.00,2021,M01,W02,fe45b1bj,Puerta Bonita fe45b1bj
+12 de Octubre-Orcasur,flat,False,True,False,False,1,"(40, 50]",int,3,2143,2143,90000,90000,1.00,2021,M01,W02,fe45b1,12 de Octubre-Orcasur fe45b1
+Puerta Bonita,flat,False,True,False,False,1,"(50, 60]",int,3,1745,1681,96000,93966,3.00,2021,M01,W02,fe55b1,Puerta Bonita fe55b1
+Vista Alegre,flat,False,False,False,False,1,"(50, 60]",int,3,1671,1658,91881,93460,2.00,2021,M01,W02,f55b1,Vista Alegre f55b1
+Numancia,flat,False,True,False,False,1,"(40, 50]",bj,3,1889,1903,85000,85666,1.00,2021,M01,W02,fe45b1bj,Numancia fe45b1bj
+San Diego,flat,False,True,True,False,1,"(60, 70]",int,3,1523,1495,95674,96558,3.00,2021,M01,W02,fe65b1lf,San Diego fe65b1lf
+Amposta,flat,False,True,False,False,1,"(50, 60]",bj,3,1636,1588,89000,86333,3.00,2021,M01,W02,fe55b1bj,Amposta fe55b1bj
+Moscardo,flat,False,True,False,False,1,"(50, 60]",int,3,1574,1684,85000,89666,2.00,2021,M01,W02,fe55b1,Moscardo fe55b1
+Ambroz,flat,False,True,False,False,1,"(50, 60]",int,3,1650,1680,99000,96333,3.00,2021,M01,W02,fe55b1,Ambroz fe55b1
+San Andres,flat,False,True,False,False,1,"(60, 70]",bj,2,1370,1370,92500,92500,2.00,2021,M01,W02,fe65b1bj,San Andres fe65b1bj
+San Andres,flat,False,False,False,False,1,"(70, 80]",int,2,1251,1251,95000,95000,3.00,2021,M01,W02,f75b1,San Andres f75b1
+Entrevias,flat,False,True,True,False,1,"(60, 70]",int,2,1442,1442,99500,99500,2.50,2021,M01,W02,fe65b1lf,Entrevias fe65b1lf
+Los Rosales,flat,False,True,False,False,1,"(60, 70]",int,2,1425,1425,92000,92000,2.00,2021,M01,W02,fe65b1,Los Rosales fe65b1
+Puerta Bonita,flat,False,False,False,False,1,"(50, 60]",int,2,1471,1471,76500,76500,1.50,2021,M01,W02,f55b1,Puerta Bonita f55b1
+Entrevias,chalet,False,False,False,False,1,"(80, 90]",int,2,1193,1193,99000,99000,3.00,2021,M01,W02,"chalet_False_False_False_False_1_(80, 90]_int","Entrevias chalet_False_False_False_False_1_(80, 90]_int"
+Entrevias,chalet,False,False,False,False,1,"(60, 70]",bj,2,1613,1613,100000,100000,2.00,2021,M01,W02,"chalet_False_False_False_False_1_(60, 70]_bj","Entrevias chalet_False_False_False_False_1_(60, 70]_bj"
+Pueblo Nuevo,flat,False,True,False,False,1,"(30, 40]",bj,2,2840,2840,98000,98000,1.00,2021,M01,W02,fe35b1bj,Pueblo Nuevo fe35b1bj
+Ensanche de Vallecas - La Gavia,flat,False,True,True,1.0,1,"(50, 60]",int,2,1765,1765,90000,90000,0.00,2021,M01,W02,"flat_False_True_True_1.0_1_(50, 60]_int","Ensanche de Vallecas - La Gavia flat_False_True_True_1.0_1_(50, 60]_int"
+San Andres,flat,False,True,True,False,1,"(50, 60]",int,2,1623,1623,97400,97400,2.00,2021,M01,W02,fe55b1lf,San Andres fe55b1lf
+Palomeras Bajas,flat,False,True,True,False,1,"(60, 70]",int,2,1311,1311,82000,82000,3.00,2021,M01,W02,fe65b1lf,Palomeras Bajas fe65b1lf
+Puerta Bonita,flat,False,True,False,False,1,"(40, 50]",int,2,1834,1834,87000,87000,2.50,2021,M01,W02,fe45b1,Puerta Bonita fe45b1
+Comillas,flat,False,True,False,False,1,"(50, 60]",int,2,1767,1767,99500,99500,2.00,2021,M01,W02,fe55b1,Comillas fe55b1
+Palomeras Bajas,flat,False,True,False,False,1,"(60, 70]",int,2,1513,1513,99500,99500,3.00,2021,M01,W02,fe65b1,Palomeras Bajas fe65b1
+Pradolongo,flat,False,True,False,False,1,"(30, 40]",int,2,2791,2791,93450,93450,1.00,2021,M01,W02,fe35b1,Pradolongo fe35b1
+Lucero,flat,False,True,False,False,1,"(40, 50]",int,2,1799,1799,89950,89950,2.00,2021,M01,W02,fe45b1,Lucero fe45b1
+Palomeras sureste,flat,False,True,False,False,1,"(20, 30]",bj,2,2410,2410,70000,70000,0.00,2021,M01,W02,fe25b1bj,Palomeras sureste fe25b1bj
+Palomeras sureste,flat,False,True,False,False,1,"(60, 70]",int,2,1500,1500,96000,96000,2.50,2021,M01,W02,fe65b1,Palomeras sureste fe65b1
+Entrevias,flat,False,True,True,False,1,"(90, 100]",int,2,1026,1026,98500,98500,3.00,2021,M01,W02,"flat_False_True_True_False_1_(90, 100]_int","Entrevias flat_False_True_True_False_1_(90, 100]_int"
+Puerta Bonita,flat,False,True,False,False,1,"(50, 60]",bj,2,1681,1681,89999,89999,2.00,2021,M01,W02,fe55b1bj,Puerta Bonita fe55b1bj
+Puerta del Angel,flat,False,True,False,False,1,"(30, 40]",int,2,2601,2601,91750,91750,1.00,2021,M01,W02,fe35b1,Puerta del Angel fe35b1
+San Cristobal,flat,False,False,False,False,1,"(70, 80]",int,2,1021,1021,76500,76500,3.00,2021,M01,W02,f75b1,San Cristobal f75b1
+Los Carmenes,flat,False,True,False,False,1,"(30, 40]",bj,2,1900,1900,76000,76000,0.50,2021,M01,W02,fe35b1bj,Los Carmenes fe35b1bj
+Numancia,flat,False,True,True,False,1,"(50, 60]",int,2,1680,1680,99950,99950,2.00,2021,M01,W02,fe55b1lf,Numancia fe55b1lf
+San Cristobal,flat,False,False,False,False,1,"(50, 60]",int,2,1388,1388,81250,81250,3.00,2021,M01,W02,f55b1,San Cristobal f55b1
+Numancia,flat,False,True,False,False,1,"(30, 40]",bj,2,2508,2508,95250,95250,0.50,2021,M01,W02,fe35b1bj,Numancia fe35b1bj
+San Cristobal,flat,False,False,True,False,1,"(50, 60]",int,2,1271,1271,71095,71095,2.00,2021,M01,W02,"flat_False_False_True_False_1_(50, 60]_int","San Cristobal flat_False_False_True_False_1_(50, 60]_int"
+San Cristobal,flat,False,False,False,False,1,"(60, 70]",int,2,1285,1285,84000,84000,3.00,2021,M01,W02,f65b1,San Cristobal f65b1
+Lavapies-Embajadores,flat,False,False,False,False,1,"(10, 20]",int,2,5141,5141,97499,97499,0.00,2021,M01,W02,"flat_False_False_False_False_1_(10, 20]_int","Lavapies-Embajadores flat_False_False_False_False_1_(10, 20]_int"
+Numancia,flat,False,True,False,False,1,"(40, 50]",int,2,1806,1806,85000,85000,1.50,2021,M01,W02,fe45b1,Numancia fe45b1
+San Andres,flat,False,True,False,False,1,"(40, 50]",int,2,1765,1765,78750,78750,1.50,2021,M01,W02,fe45b1,San Andres fe45b1
+Numancia,flat,False,True,False,False,1,"(50, 60]",bj,2,1497,1497,84500,84500,2.00,2021,M01,W02,fe55b1bj,Numancia fe55b1bj
+San Andres,flat,False,False,False,False,1,"(60, 70]",int,2,1409,1409,89546,89546,3.00,2021,M01,W02,f65b1,San Andres f65b1
+Opañel,flat,False,True,False,False,1,"(50, 60]",int,2,1758,1758,99950,99950,2.50,2021,M01,W02,fe55b1,Opañel fe55b1
+Los Rosales,flat,False,True,False,False,1,"(50, 60]",bj,2,1639,1639,91500,91500,1.50,2021,M01,W02,fe55b1bj,Los Rosales fe55b1bj
+Quintana,flat,False,True,False,False,1,"(40, 50]",bj,2,2000,2000,100000,100000,2.00,2021,M01,W02,fe45b1bj,Quintana fe45b1bj
+Entrevias,flat,False,True,False,False,2,"(80, 90]",int,2,1113,1113,93520,93520,3.00,2021,M01,W02,"flat_False_True_False_False_2_(80, 90]_int","Entrevias flat_False_True_False_False_2_(80, 90]_int"
+Entrevias,flat,False,True,False,False,1,"(80, 90]",bj,2,1039,1039,93500,93500,2.00,2021,M01,W02,"flat_False_True_False_False_1_(80, 90]_bj","Entrevias flat_False_True_False_False_1_(80, 90]_bj"
+Puerta del Angel,flat,False,False,False,False,1,"(30, 40]",int,2,3152,3152,99250,99250,1.50,2021,M01,W02,f35b1,Puerta del Angel f35b1
+San Diego,flat,False,False,False,False,1,"(40, 50]",bj,2,1679,1679,79000,79000,1.50,2021,M01,W02,f45b1bj,San Diego f45b1bj
+San Isidro,flat,False,True,False,False,1,"(30, 40]",bj,2,2046,2046,77500,77500,1.00,2021,M01,W02,fe35b1bj,San Isidro fe35b1bj
+San Fermin,flat,False,True,False,False,1,"(60, 70]",int,2,1496,1496,95000,95000,2.50,2021,M01,W02,fe65b1,San Fermin fe65b1
+Campamento,flat,False,True,False,False,1,"(50, 60]",bj,2,1688,1688,97000,97000,2.50,2021,M01,W02,fe55b1bj,Campamento fe55b1bj
+Almendrales,flat,False,False,False,False,1,"(30, 40]",bj,2,2188,2188,74000,74000,1.00,2021,M01,W02,f35b1bj,Almendrales f35b1bj
+Campamento,flat,False,True,True,False,1,"(60, 70]",bj,2,1523,1523,99000,99000,3.00,2021,M01,W02,"flat_False_True_True_False_1_(60, 70]_bj","Campamento flat_False_True_True_False_1_(60, 70]_bj"
+Almendrales,flat,False,True,False,False,1,"(50, 60]",int,2,1702,1702,96000,96000,2.00,2021,M01,W02,fe55b1,Almendrales fe55b1
+Vista Alegre,flat,False,False,False,False,1,"(50, 60]",int,2,1508,1508,82955,82955,2.50,2021,M01,W02,f55b1,Vista Alegre f55b1
+Berruguete,flat,False,False,False,False,1,"(20, 30]",bj,2,3056,3056,90100,90100,1.50,2021,M01,W02,f25b1bj,Berruguete f25b1bj
+Butarque,flat,False,True,False,False,1,"(60, 70]",int,2,1347,1347,88250,88250,2.50,2021,M01,W02,fe65b1,Butarque fe65b1
+Butarque,flat,False,True,False,False,1,"(50, 60]",int,2,1521,1521,87750,87750,2.50,2021,M01,W02,fe55b1,Butarque fe55b1
+Simancas,flat,False,True,True,False,1,"(40, 50]",bj,2,2189,2189,94175,94175,1.50,2021,M01,W02,"flat_False_True_True_False_1_(40, 50]_bj","Simancas flat_False_True_True_False_1_(40, 50]_bj"
+San Isidro,flat,False,False,False,False,1,"(50, 60]",int,2,1725,1725,88000,88000,2.00,2021,M01,W02,f55b1,San Isidro f55b1
+San Isidro,flat,False,False,False,False,1,"(60, 70]",int,2,1328,1328,88926,88926,3.00,2021,M01,W02,f65b1,San Isidro f65b1
+Berruguete,flat,False,True,False,False,1,"(20, 30]",bj,2,3378,3378,89500,89500,1.00,2021,M01,W02,fe25b1bj,Berruguete fe25b1bj
+Buena Vista,flat,False,True,False,False,1,"(60, 70]",int,2,1519,1519,94950,94950,2.00,2021,M01,W02,fe65b1,Buena Vista fe65b1
+Buena Vista,flat,False,True,False,False,1,"(50, 60]",int,2,1579,1579,92250,92250,2.50,2021,M01,W02,fe55b1,Buena Vista fe55b1
+Buena Vista,flat,False,True,False,False,1,"(50, 60]",bj,2,1665,1665,92999,92999,1.00,2021,M01,W02,fe55b1bj,Buena Vista fe55b1bj
+Buena Vista,flat,False,True,False,False,1,"(20, 30]",bj,2,3312,3312,82800,82800,1.00,2021,M01,W02,fe25b1bj,Buena Vista fe25b1bj
+Buena Vista,flat,False,False,False,False,1,"(20, 30]",bj,2,3189,3189,82800,82800,1.00,2021,M01,W02,f25b1bj,Buena Vista f25b1bj
+Simancas,flat,False,True,False,False,1,"(50, 60]",int,2,1841,1841,97500,97500,2.00,2021,M01,W02,fe55b1,Simancas fe55b1
+Vista Alegre,flat,False,True,False,False,1,"(40, 50]",bj,2,1732,1732,79500,79500,1.50,2021,M01,W02,fe45b1bj,Vista Alegre fe45b1bj
+Casco Historico de Vallecas,flat,False,True,False,False,1,"(40, 50]",bj,2,1988,1988,97450,97450,2.00,2021,M01,W02,fe45b1bj,Casco Historico de Vallecas fe45b1bj
+Abrantes,flat,False,False,False,False,1,"(40, 50]",int,2,2103,2103,97445,97445,1.50,2021,M01,W02,f45b1,Abrantes f45b1
+Aluche,flat,False,True,False,False,1,"(60, 70]",int,2,1345,1345,89950,89950,2.50,2021,M01,W02,fe65b1,Aluche fe65b1
+San Diego,flat,False,True,False,False,1,"(70, 80]",bj,2,1226,1226,89500,89500,3.00,2021,M01,W02,fe75b1bj,San Diego fe75b1bj
+Zofio,flat,False,True,False,False,1,"(50, 60]",bj,2,1562,1562,87500,87500,2.00,2021,M01,W02,fe55b1bj,Zofio fe55b1bj
+San Diego,flat,False,True,False,False,1,"(50, 60]",bj,2,1494,1494,80450,80450,2.50,2021,M01,W02,fe55b1bj,San Diego fe55b1bj
+Abrantes,flat,False,True,False,False,1,"(40, 50]",int,2,2211,2211,99500,99500,1.00,2021,M01,W02,fe45b1,Abrantes fe45b1
+San Diego,flat,False,True,False,False,1,"(30, 40]",int,2,2418,2418,91750,91750,1.50,2021,M01,W02,fe35b1,San Diego fe35b1
+Abrantes,flat,False,True,False,False,1,"(50, 60]",int,2,1696,1696,97400,97400,2.50,2021,M01,W02,fe55b1,Abrantes fe55b1
+Vista Alegre,flat,False,False,False,False,1,"(60, 70]",int,1,1202,1202,79358,79358,2.00,2021,M01,W02,f65b1,Vista Alegre f65b1
+Vista Alegre,flat,False,True,True,False,1,"(40, 50]",bj,1,2200,2200,99000,99000,1.00,2021,M01,W02,"flat_False_True_True_False_1_(40, 50]_bj","Vista Alegre flat_False_True_True_False_1_(40, 50]_bj"
+Vista Alegre,flat,False,True,False,False,1,"(30, 40]",bj,1,2378,2378,88000,88000,1.00,2021,M01,W02,fe35b1bj,Vista Alegre fe35b1bj
+Puerta del Angel,flat,False,True,False,False,1,"(40, 50]",bj,1,1500,1500,75000,75000,2.00,2021,M01,W02,fe45b1bj,Puerta del Angel fe45b1bj
+Valdezarza,flat,False,True,False,False,1,"(30, 40]",int,1,2543,2543,89000,89000,1.00,2021,M01,W02,fe35b1,Valdezarza fe35b1
+Valdezarza,flat,False,True,True,False,1,"(50, 60]",bj,1,1364,1364,75000,75000,2.00,2021,M01,W02,"flat_False_True_True_False_1_(50, 60]_bj","Valdezarza flat_False_True_True_False_1_(50, 60]_bj"
+Puerta Bonita,flat,False,True,False,False,1,"(60, 70]",bj,1,1508,1508,98000,98000,2.00,2021,M01,W02,fe65b1bj,Puerta Bonita fe65b1bj
+Vista Alegre,flat,False,False,False,False,1,"(40, 50]",bj,1,2200,2200,99000,99000,1.00,2021,M01,W02,f45b1bj,Vista Alegre f45b1bj
+Ventas,flat,False,True,False,False,1,"(20, 30]",bj,1,3300,3300,99000,99000,0.00,2021,M01,W02,fe25b1bj,Ventas fe25b1bj
+Vista Alegre,flat,False,False,False,False,1,"(30, 40]",bj,1,2854,2854,99900,99900,1.00,2021,M01,W02,f35b1bj,Vista Alegre f35b1bj
+Puerta del Angel,flat,False,True,False,False,1,"(30, 40]",bj,1,2179,2179,85000,85000,1.00,2021,M01,W02,fe35b1bj,Puerta del Angel fe35b1bj
+Puerta Bonita,flat,False,True,False,False,1,"(90, 100]",int,1,900,900,90000,90000,3.00,2021,M01,W02,"flat_False_True_False_False_1_(90, 100]_int","Puerta Bonita flat_False_True_False_False_1_(90, 100]_int"
+Puerta del Angel,flat,False,True,True,False,1,"(40, 50]",bj,1,2111,2111,95000,95000,1.00,2021,M01,W02,"flat_False_True_True_False_1_(40, 50]_bj","Puerta del Angel flat_False_True_True_False_1_(40, 50]_bj"
+Puerta del Angel,flat,False,False,False,False,1,"(70, 80]",bj,1,1199,1199,87500,87500,3.00,2021,M01,W02,f75b1bj,Puerta del Angel f75b1bj
+Puerta del Angel,flat,False,False,False,False,1,"(20, 30]",bj,1,3333,3333,100000,100000,1.00,2021,M01,W02,f25b1bj,Puerta del Angel f25b1bj
+Ventas,flat,False,False,True,False,1,"(20, 30]",bj,1,2467,2467,74000,74000,1.00,2021,M01,W02,"flat_False_False_True_False_1_(20, 30]_bj","Ventas flat_False_False_True_False_1_(20, 30]_bj"
+Puerta del Angel,flat,False,False,False,False,1,"(30, 40]",int,1,3063,3063,98000,98000,2.00,2021,M01,W02,f35b1,Puerta del Angel f35b1
+Ventas,flat,False,False,False,False,1,"(20, 30]",int,1,3600,3600,90000,90000,1.00,2021,M01,W02,f25b1,Ventas f25b1
+Ventas,flat,False,True,False,False,1,"(40, 50]",bj,1,1771,1771,85000,85000,0.00,2021,M01,W02,fe45b1bj,Ventas fe45b1bj
+Ventilla-Almenara,flat,False,False,False,False,1,"(40, 50]",int,1,2439,2439,99995,99995,2.00,2021,M01,W02,f45b1,Ventilla-Almenara f45b1
+San Diego,flat,False,True,False,False,1,"(20, 30]",bj,1,3545,3545,78000,78000,1.00,2021,M01,W02,fe25b1bj,San Diego fe25b1bj
+Puerta Bonita,flat,False,True,False,False,1,"(30, 40]",bj,1,2909,2909,96000,96000,1.00,2021,M01,W02,fe35b1bj,Puerta Bonita fe35b1bj
+Puerta Bonita,flat,False,True,False,False,1,"(50, 60]",bj,1,1904,1904,99000,99000,2.00,2021,M01,W02,fe55b1bj,Puerta Bonita fe55b1bj
+Portazgo,flat,False,False,True,False,1,"(50, 60]",int,1,1923,1923,100000,100000,2.00,2021,M01,W02,"flat_False_False_True_False_1_(50, 60]_int","Portazgo flat_False_False_True_False_1_(50, 60]_int"
+Portazgo,flat,False,False,False,False,1,"(60, 70]",bj,1,1623,1623,99000,99000,2.00,2021,M01,W02,f65b1bj,Portazgo f65b1bj
+Portazgo,flat,False,True,False,False,1,"(50, 60]",int,1,1763,1763,89900,89900,3.00,2021,M01,W02,fe55b1,Portazgo fe55b1
+Zofio,flat,False,True,False,False,1,"(50, 60]",int,1,1350,1350,81000,81000,3.00,2021,M01,W02,fe55b1,Zofio fe55b1
+Portazgo,flat,False,True,True,False,1,"(60, 70]",int,1,1441,1441,98000,98000,2.00,2021,M01,W02,fe65b1lf,Portazgo fe65b1lf
+Zofio,flat,False,True,False,False,1,"(40, 50]",int,1,2000,2000,100000,100000,2.00,2021,M01,W02,fe45b1,Zofio fe45b1
+Zofio,flat,False,True,False,False,1,"(40, 50]",bj,1,1605,1605,69000,69000,1.00,2021,M01,W02,fe45b1bj,Zofio fe45b1bj
+Portazgo,flat,False,True,False,False,1,"(60, 70]",int,1,1212,1212,80000,80000,2.00,2021,M01,W02,fe65b1,Portazgo fe65b1
+Pradolongo,flat,False,True,False,False,1,"(40, 50]",bj,1,2045,2045,90000,90000,2.00,2021,M01,W02,fe45b1bj,Pradolongo fe45b1bj
+Pradolongo,flat,False,True,False,False,1,"(40, 50]",int,1,2302,2302,99000,99000,2.00,2021,M01,W02,fe45b1,Pradolongo fe45b1
+Zofio,flat,False,True,True,False,1,"(60, 70]",bj,1,1474,1474,89900,89900,1.00,2021,M01,W02,"flat_False_True_True_False_1_(60, 70]_bj","Zofio flat_False_True_True_False_1_(60, 70]_bj"
+Zofio,flat,False,False,False,False,1,"(50, 60]",int,1,1768,1768,99000,99000,2.00,2021,M01,W02,f55b1,Zofio f55b1
+Zofio,flat,False,False,False,False,1,"(50, 60]",bj,1,1464,1464,82000,82000,2.00,2021,M01,W02,f55b1bj,Zofio f55b1bj
+Zofio,flat,False,False,False,False,1,"(50, 60]",int,1,1768,1768,99000,99000,2.00,2021,M01,W02,f55b1,Zofio f55b1
+Pradolongo,flat,False,True,False,False,1,"(50, 60]",bj,1,1317,1317,79000,79000,2.00,2021,M01,W02,fe55b1bj,Pradolongo fe55b1bj
+Vista Alegre,flat,False,True,False,False,1,"(80, 90]",int,1,920,920,80000,80000,3.00,2021,M01,W02,fe85b1,Vista Alegre fe85b1
+Vista Alegre,flat,False,True,False,False,1,"(70, 80]",int,1,1132,1132,84900,84900,2.00,2021,M01,W02,fe75b1,Vista Alegre fe75b1
+Pradolongo,flat,False,True,False,False,1,"(60, 70]",int,1,1219,1219,78000,78000,2.00,2021,M01,W02,fe65b1,Pradolongo fe65b1
+Prosperidad,flat,False,False,True,False,1,"(20, 30]",bj,1,3990,3990,99750,99750,0.00,2021,M01,W02,"flat_False_False_True_False_1_(20, 30]_bj","Prosperidad flat_False_False_True_False_1_(20, 30]_bj"
+Pueblo Nuevo,flat,False,False,False,False,1,"(20, 30]",bj,1,2633,2633,79000,79000,2.00,2021,M01,W02,f25b1bj,Pueblo Nuevo f25b1bj
+Pueblo Nuevo,flat,False,True,False,False,1,"(20, 30]",bj,1,3300,3300,99000,99000,1.00,2021,M01,W02,fe25b1bj,Pueblo Nuevo fe25b1bj
+Vista Alegre,flat,False,True,False,False,1,"(60, 70]",int,1,1202,1202,79358,79358,2.00,2021,M01,W02,fe65b1,Vista Alegre fe65b1
+Puerta del Angel,flat,False,True,False,False,1,"(50, 60]",int,1,1627,1627,96000,96000,2.00,2021,M01,W02,fe55b1,Puerta del Angel fe55b1
+Puerta Bonita,flat,False,False,False,False,1,"(50, 60]",int,1,1745,1745,96000,96000,2.00,2021,M01,W02,f55b1,Puerta Bonita f55b1
+Vista Alegre,flat,False,True,False,False,1,"(40, 50]",int,1,2111,2111,95000,95000,2.00,2021,M01,W02,fe45b1,Vista Alegre fe45b1
+Puerta del Angel,flat,False,True,False,False,1,"(40, 50]",int,1,2195,2195,90000,90000,3.00,2021,M01,W02,fe45b1,Puerta del Angel fe45b1
+Tres Olivos - Valverde,flat,False,True,False,False,1,"(30, 40]",bj,1,2143,2143,75000,75000,0.00,2021,M01,W02,fe35b1bj,Tres Olivos - Valverde fe35b1bj
+Puerta del Angel,flat,False,True,False,False,1,"(60, 70]",int,1,1143,1143,80000,80000,3.00,2021,M01,W02,fe65b1,Puerta del Angel fe65b1
+San Fermin,flat,False,True,True,False,1,"(60, 70]",int,1,1508,1508,95000,95000,2.00,2021,M01,W02,fe65b1lf,San Fermin fe65b1lf
+San Isidro,flat,False,False,False,False,2,"(70, 80]",bj,1,1186,1186,94900,94900,3.00,2021,M01,W02,"flat_False_False_False_False_2_(70, 80]_bj","San Isidro flat_False_False_False_False_2_(70, 80]_bj"
+San Cristobal,flat,False,True,False,False,1,"(30, 40]",bj,1,2139,2139,81300,81300,1.00,2021,M01,W02,fe35b1bj,San Cristobal fe35b1bj
+San Cristobal,flat,False,True,False,False,1,"(60, 70]",bj,1,1327,1327,84900,84900,2.00,2021,M01,W02,fe65b1bj,San Cristobal fe65b1bj
+San Isidro,flat,False,False,False,False,1,"(40, 50]",bj,1,2302,2302,99000,99000,1.00,2021,M01,W02,f45b1bj,San Isidro f45b1bj
+San Diego,flat,False,False,False,False,1,"(20, 30]",bj,1,2496,2496,69900,69900,1.00,2021,M01,W02,f25b1bj,San Diego f25b1bj
+San Diego,flat,False,False,False,False,1,"(40, 50]",bj,1,1927,1927,86700,86700,2.00,2021,M01,W02,f45b1bj,San Diego f45b1bj
+San Isidro,flat,False,False,False,False,1,"(20, 30]",bj,1,2467,2467,74000,74000,1.00,2021,M01,W02,f25b1bj,San Isidro f25b1bj
+San Diego,flat,False,False,False,False,1,"(50, 60]",int,1,1802,1802,95500,95500,3.00,2021,M01,W02,f55b1,San Diego f55b1
+San Isidro,flat,False,False,True,False,1,"(40, 50]",int,1,2205,2205,97000,97000,2.00,2021,M01,W02,"flat_False_False_True_False_1_(40, 50]_int","San Isidro flat_False_False_True_False_1_(40, 50]_int"
+San Diego,flat,False,False,True,False,1,"(30, 40]",int,1,1947,1947,74000,74000,2.00,2021,M01,W02,"flat_False_False_True_False_1_(30, 40]_int","San Diego flat_False_False_True_False_1_(30, 40]_int"
+San Isidro,flat,False,False,True,False,1,"(30, 40]",int,1,2105,2105,80000,80000,1.00,2021,M01,W02,"flat_False_False_True_False_1_(30, 40]_int","San Isidro flat_False_False_True_False_1_(30, 40]_int"
+San Diego,flat,False,False,True,False,1,"(40, 50]",int,1,2040,2040,89758,89758,1.00,2021,M01,W02,"flat_False_False_True_False_1_(40, 50]_int","San Diego flat_False_False_True_False_1_(40, 50]_int"
+San Fermin,flat,False,True,False,False,1,"(50, 60]",int,1,1696,1696,89900,89900,2.00,2021,M01,W02,fe55b1,San Fermin fe55b1
+Puerta del Angel,flat,False,True,False,False,2,"(40, 50]",bj,1,1680,1680,84000,84000,1.00,2021,M01,W02,"flat_False_True_False_False_2_(40, 50]_bj","Puerta del Angel flat_False_True_False_False_2_(40, 50]_bj"
+Pinar del Rey,flat,False,True,False,False,1,"(20, 30]",bj,1,3267,3267,98000,98000,0.00,2021,M01,W02,fe25b1bj,Pinar del Rey fe25b1bj
+San Fermin,flat,False,False,False,False,1,"(60, 70]",int,1,1508,1508,95000,95000,3.00,2021,M01,W02,f65b1,San Fermin f65b1
+San Diego,flat,False,False,False,False,1,"(50, 60]",bj,1,1648,1648,89000,89000,2.00,2021,M01,W02,f55b1bj,San Diego f55b1bj
+San Diego,flat,False,True,False,False,2,"(50, 60]",bj,1,1412,1412,72000,72000,2.00,2021,M01,W02,"flat_False_True_False_False_2_(50, 60]_bj","San Diego flat_False_True_False_False_2_(50, 60]_bj"
+San Diego,flat,False,True,False,False,1,"(80, 90]",int,1,1159,1159,95000,95000,3.00,2021,M01,W02,fe85b1,San Diego fe85b1
+San Diego,flat,False,False,False,False,1,"(50, 60]",int,1,1696,1696,95000,95000,2.00,2021,M01,W02,f55b1,San Diego f55b1
+San Diego,flat,False,False,False,False,1,"(60, 70]",int,1,1159,1159,80000,80000,2.00,2021,M01,W02,f65b1,San Diego f65b1
+San Diego,flat,False,True,False,False,1,"(40, 50]",int,1,1810,1810,76000,76000,1.00,2021,M01,W02,fe45b1,San Diego fe45b1
+San Diego,flat,False,True,True,False,1,"(30, 40]",bj,1,2622,2622,97000,97000,0.00,2021,M01,W02,"flat_False_True_True_False_1_(30, 40]_bj","San Diego flat_False_True_True_False_1_(30, 40]_bj"
+San Diego,flat,False,True,True,False,1,"(30, 40]",int,1,2250,2250,90000,90000,1.00,2021,M01,W02,fe35b1lf,San Diego fe35b1lf
+San Diego,flat,False,True,True,False,1,"(40, 50]",bj,1,1978,1978,91000,91000,1.00,2021,M01,W02,"flat_False_True_True_False_1_(40, 50]_bj","San Diego flat_False_True_True_False_1_(40, 50]_bj"
+San Diego,flat,False,True,True,False,1,"(70, 80]",bj,1,1042,1042,75000,75000,2.00,2021,M01,W02,"flat_False_True_True_False_1_(70, 80]_bj","San Diego flat_False_True_True_False_1_(70, 80]_bj"
+San Isidro,flat,False,True,False,False,1,"(30, 40]",int,1,2500,2500,99999,99999,1.00,2021,M01,W02,fe35b1,San Isidro fe35b1
+San Cristobal,flat,False,False,False,False,1,"(40, 50]",bj,1,1891,1891,81300,81300,1.00,2021,M01,W02,f45b1bj,San Cristobal f45b1bj
+San Isidro,flat,False,True,False,False,1,"(50, 60]",int,1,1689,1689,89500,89500,2.00,2021,M01,W02,fe55b1,San Isidro fe55b1
+San Cristobal,flat,False,False,True,False,1,"(40, 50]",int,1,1891,1891,81300,81300,1.00,2021,M01,W02,"flat_False_False_True_False_1_(40, 50]_int","San Cristobal flat_False_False_True_False_1_(40, 50]_int"
+Quintana,flat,False,False,True,False,1,"(50, 60]",bj,1,1235,1235,63000,63000,3.00,2021,M01,W02,"flat_False_False_True_False_1_(50, 60]_bj","Quintana flat_False_False_True_False_1_(50, 60]_bj"
+Valdeacederas,flat,False,True,False,False,1,"(30, 40]",bj,1,2450,2450,98000,98000,1.00,2021,M01,W02,fe35b1bj,Valdeacederas fe35b1bj
+Valdeacederas,flat,False,False,False,False,1,"(20, 30]",bj,1,4045,4045,89000,89000,0.00,2021,M01,W02,f25b1bj,Valdeacederas f25b1bj
+San Andres,flat,False,False,False,False,1,"(50, 60]",int,1,1827,1827,95000,95000,1.00,2021,M01,W02,f55b1,San Andres f55b1
+San Andres,flat,False,False,False,False,1,"(60, 70]",int,1,1075,1075,72000,72000,2.00,2021,M01,W02,f65b1,San Andres f65b1
+Tres Olivos - Valverde,flat,False,True,False,False,1,"(50, 60]",bj,1,1727,1727,95000,95000,0.00,2021,M01,W02,fe55b1bj,Tres Olivos - Valverde fe55b1bj
+San Andres,flat,False,False,True,False,1,"(50, 60]",bj,1,1158,1158,66000,66000,3.00,2021,M01,W02,"flat_False_False_True_False_1_(50, 60]_bj","San Andres flat_False_False_True_False_1_(50, 60]_bj"
+San Andres,flat,False,False,False,False,1,"(30, 40]",int,1,2219,2219,71000,71000,0.00,2021,M01,W02,f35b1,San Andres f35b1
+San Diego,flat,False,True,False,False,1,"(30, 40]",bj,1,2368,2368,90000,90000,0.00,2021,M01,W02,fe35b1bj,San Diego fe35b1bj
+Tres Olivos - Valverde,chalet,False,False,False,False,1,"(40, 50]",int,1,1780,1780,89000,89000,2.00,2021,M01,W02,"chalet_False_False_False_False_1_(40, 50]_int","Tres Olivos - Valverde chalet_False_False_False_False_1_(40, 50]_int"
+Trafalgar,flat,False,False,True,False,1,"(10, 20]",int,1,4525,4525,90500,90500,1.00,2021,M01,W02,"flat_False_False_True_False_1_(10, 20]_int","Trafalgar flat_False_False_True_False_1_(10, 20]_int"
+Simancas,flat,False,True,False,False,1,"(40, 50]",bj,1,1837,1837,89990,89990,2.00,2021,M01,W02,fe45b1bj,Simancas fe45b1bj
+San Andres,flat,False,True,False,False,1,"(40, 50]",int,1,1760,1760,88000,88000,2.00,2021,M01,W02,fe45b1,San Andres fe45b1
+San Andres,flat,False,True,True,False,1,"(40, 50]",bj,1,1771,1771,85000,85000,1.00,2021,M01,W02,"flat_False_True_True_False_1_(40, 50]_bj","San Andres flat_False_True_True_False_1_(40, 50]_bj"
+Simancas,flat,False,True,True,False,1,"(50, 60]",int,1,1709,1709,94000,94000,2.00,2021,M01,W02,fe55b1lf,Simancas fe55b1lf
+San Andres,flat,False,True,True,False,1,"(60, 70]",bj,1,1397,1397,95000,95000,3.00,2021,M01,W02,"flat_False_True_True_False_1_(60, 70]_bj","San Andres flat_False_True_True_False_1_(60, 70]_bj"
+Simancas,flat,False,True,True,False,1,"(30, 40]",bj,1,2781,2781,89000,89000,1.00,2021,M01,W02,"flat_False_True_True_False_1_(30, 40]_bj","Simancas flat_False_True_True_False_1_(30, 40]_bj"
+Simancas,flat,False,False,False,False,1,"(40, 50]",int,1,1850,1850,92500,92500,2.00,2021,M01,W02,f45b1,Simancas f45b1
+Simancas,flat,False,False,True,False,1,"(40, 50]",int,1,2200,2200,99000,99000,2.00,2021,M01,W02,"flat_False_False_True_False_1_(40, 50]_int","Simancas flat_False_False_True_False_1_(40, 50]_int"
+Simancas,flat,False,False,False,False,1,"(40, 50]",int,1,2011,2011,92500,92500,2.00,2021,M01,W02,f45b1,Simancas f45b1
+Santa Eugenia,flat,False,True,True,False,1,"(70, 80]",bj,1,1319,1319,95000,95000,2.00,2021,M01,W02,"flat_False_True_True_False_1_(70, 80]_bj","Santa Eugenia flat_False_True_True_False_1_(70, 80]_bj"
+San Isidro,flat,False,True,False,False,1,"(70, 80]",int,1,1394,1394,99000,99000,3.00,2021,M01,W02,fe75b1,San Isidro fe75b1
+San Isidro,flat,False,True,False,False,1,"(60, 70]",bj,1,1254,1254,79000,79000,3.00,2021,M01,W02,fe65b1bj,San Isidro fe65b1bj
+San Andres,flat,False,True,False,False,1,"(80, 90]",int,1,1112,1112,99000,99000,2.00,2021,M01,W02,fe85b1,San Andres fe85b1
+San Andres,flat,False,True,False,False,2,"(60, 70]",bj,1,956,956,65000,65000,2.00,2021,M01,W02,"flat_False_True_False_False_2_(60, 70]_bj","San Andres flat_False_True_False_False_2_(60, 70]_bj"
+12 de Octubre-Orcasur,flat,False,False,False,False,1,"(40, 50]",int,1,2143,2143,90000,90000,1.00,2021,M01,W02,f45b1,12 de Octubre-Orcasur f45b1
+Pacifico,flat,False,True,True,False,1,"(30, 40]",int,1,2611,2611,94000,94000,2.00,2021,M01,W02,fe35b1lf,Pacifico fe35b1lf
+Pinar del Rey,flat,False,False,False,False,1,"(30, 40]",bj,1,2474,2474,94000,94000,1.00,2021,M01,W02,f35b1bj,Pinar del Rey f35b1bj
+Butarque,flat,False,True,False,False,1,"(50, 60]",int,1,1571,1571,88000,88000,3.00,2021,M01,W02,fe55b1,Butarque fe55b1
+Casco Historico de Vallecas,flat,False,False,False,False,1,"(40, 50]",int,1,1980,1980,99000,99000,2.00,2021,M01,W02,f45b1,Casco Historico de Vallecas f45b1
+Canillejas,flat,False,True,False,False,1,"(60, 70]",bj,1,1523,1523,99000,99000,3.00,2021,M01,W02,fe65b1bj,Canillejas fe65b1bj
+Campamento,flat,False,True,False,False,1,"(60, 70]",int,1,1284,1284,86000,86000,3.00,2021,M01,W02,fe65b1,Campamento fe65b1
+Campamento,flat,False,True,False,False,1,"(60, 70]",bj,1,1477,1477,96000,96000,3.00,2021,M01,W02,fe65b1bj,Campamento fe65b1bj
+Campamento,flat,False,True,False,False,1,"(50, 60]",int,1,1667,1667,100000,100000,2.00,2021,M01,W02,fe55b1,Campamento fe55b1
+Campamento,flat,False,True,True,False,2,"(60, 70]",int,1,1289,1289,83800,83800,3.00,2021,M01,W02,"flat_False_True_True_False_2_(60, 70]_int","Campamento flat_False_True_True_False_2_(60, 70]_int"
+Butarque,flat,False,True,False,False,1,"(90, 100]",int,1,990,990,97000,97000,3.00,2021,M01,W02,"flat_False_True_False_False_1_(90, 100]_int","Butarque flat_False_True_False_False_1_(90, 100]_int"
+Butarque,flat,False,True,False,False,1,"(40, 50]",int,1,1644,1644,74000,74000,3.00,2021,M01,W02,fe45b1,Butarque fe45b1
+Butarque,flat,False,False,False,False,1,"(60, 70]",int,1,1426,1426,97000,97000,3.00,2021,M01,W02,f65b1,Butarque f65b1
+Berruguete,flat,False,False,False,1.0,1,"(20, 30]",bj,1,3788,3788,98500,98500,1.00,2021,M01,W02,"flat_False_False_False_1.0_1_(20, 30]_bj","Berruguete flat_False_False_False_1.0_1_(20, 30]_bj"
+Butarque,flat,False,False,False,False,1,"(50, 60]",int,1,1571,1571,88000,88000,3.00,2021,M01,W02,f55b1,Butarque f55b1
+Butarque,flat,False,False,False,False,1,"(40, 50]",int,1,1644,1644,74000,74000,3.00,2021,M01,W02,f45b1,Butarque f45b1
+Buena Vista,flat,False,True,False,False,1,"(70, 80]",int,1,1133,1133,84999,84999,2.00,2021,M01,W02,fe75b1,Buena Vista fe75b1
+Buena Vista,flat,False,False,False,False,1,"(50, 60]",int,1,1731,1731,90000,90000,1.00,2021,M01,W02,f55b1,Buena Vista f55b1
+Buena Vista,flat,False,False,False,False,1,"(50, 60]",int,1,1731,1731,90000,90000,2.00,2021,M01,W02,f55b1,Buena Vista f55b1
+Buena Vista,flat,False,False,False,False,1,"(40, 50]",int,1,1900,1900,95000,95000,2.00,2021,M01,W02,f45b1,Buena Vista f45b1
+Berruguete,flat,False,True,False,False,1,"(50, 60]",bj,1,1466,1466,85000,85000,1.00,2021,M01,W02,fe55b1bj,Berruguete fe55b1bj
+Berruguete,flat,False,True,False,False,1,"(40, 50]",int,1,1478,1478,68000,68000,1.00,2021,M01,W02,fe45b1,Berruguete fe45b1
+Casco Historico de Vallecas,flat,False,False,False,False,1,"(50, 60]",int,1,1885,1885,98000,98000,2.00,2021,M01,W02,f55b1,Casco Historico de Vallecas f55b1
+Casco Historico de Vallecas,flat,False,False,False,False,1,"(60, 70]",bj,1,1491,1491,99900,99900,2.00,2021,M01,W02,f65b1bj,Casco Historico de Vallecas f65b1bj
+Casco Historico de Vallecas,flat,False,True,True,False,1,"(30, 40]",bj,1,2105,2105,80000,80000,1.00,2021,M01,W02,"flat_False_True_True_False_1_(30, 40]_bj","Casco Historico de Vallecas flat_False_True_True_False_1_(30, 40]_bj"
+Casco Historico de Vallecas,flat,False,True,True,False,1,"(40, 50]",bj,1,2270,2270,99900,99900,1.00,2021,M01,W02,"flat_False_True_True_False_1_(40, 50]_bj","Casco Historico de Vallecas flat_False_True_True_False_1_(40, 50]_bj"
+Ensanche de Vallecas - La Gavia,flat,False,True,True,1.0,1,"(60, 70]",int,1,1370,1370,95900,95900,1.00,2021,M01,W02,"flat_False_True_True_1.0_1_(60, 70]_int","Ensanche de Vallecas - La Gavia flat_False_True_True_1.0_1_(60, 70]_int"
+Ensanche de Vallecas - La Gavia,flat,False,True,True,1.0,1,"(50, 60]",bj,1,1473,1473,82500,82500,0.00,2021,M01,W02,"flat_False_True_True_1.0_1_(50, 60]_bj","Ensanche de Vallecas - La Gavia flat_False_True_True_1.0_1_(50, 60]_bj"
+Ensanche de Vallecas - La Gavia,flat,False,True,True,1.0,1,"(30, 40]",int,1,2500,2500,100000,100000,1.00,2021,M01,W02,"flat_False_True_True_1.0_1_(30, 40]_int","Ensanche de Vallecas - La Gavia flat_False_True_True_1.0_1_(30, 40]_int"
+Ensanche de Vallecas - La Gavia,flat,False,True,True,False,2,"(50, 60]",int,1,1707,1707,99000,99000,1.00,2021,M01,W02,"flat_False_True_True_False_2_(50, 60]_int","Ensanche de Vallecas - La Gavia flat_False_True_True_False_2_(50, 60]_int"
+Ensanche de Vallecas - La Gavia,flat,False,True,True,False,1,"(50, 60]",int,1,1552,1552,90000,90000,0.00,2021,M01,W02,fe55b1lf,Ensanche de Vallecas - La Gavia fe55b1lf
+Ensanche de Vallecas - La Gavia,flat,False,True,True,False,1,"(40, 50]",int,1,2063,2063,99000,99000,1.00,2021,M01,W02,fe45b1lf,Ensanche de Vallecas - La Gavia fe45b1lf
+Delicias,flat,False,False,False,False,1,"(20, 30]",int,1,3167,3167,95000,95000,1.00,2021,M01,W02,f25b1,Delicias f25b1
+Cuatro Caminos,flat,False,False,False,False,1,"(30, 40]",bj,1,2714,2714,95000,95000,2.00,2021,M01,W02,f35b1bj,Cuatro Caminos f35b1bj
+Comillas,flat,False,True,False,False,1,"(60, 70]",int,1,1456,1456,99000,99000,3.00,2021,M01,W02,fe65b1,Comillas fe65b1
+Comillas,flat,False,True,False,False,1,"(50, 60]",bj,1,1534,1534,89000,89000,2.00,2021,M01,W02,fe55b1bj,Comillas fe55b1bj
+Comillas,flat,False,True,False,False,1,"(30, 40]",int,1,2775,2775,99900,99900,1.00,2021,M01,W02,fe35b1,Comillas fe35b1
+Comillas,flat,False,False,False,False,1,"(20, 30]",bj,1,2839,2839,79500,79500,1.00,2021,M01,W02,f25b1bj,Comillas f25b1bj
+Chueca-Justicia,flat,False,False,True,False,1,"(10, 20]",int,1,6667,6667,100000,100000,0.00,2021,M01,W02,"flat_False_False_True_False_1_(10, 20]_int","Chueca-Justicia flat_False_False_True_False_1_(10, 20]_int"
+Casco Historico de Vicalvaro,flat,False,True,True,False,1,"(80, 90]",bj,1,1173,1173,95000,95000,3.00,2021,M01,W02,"flat_False_True_True_False_1_(80, 90]_bj","Casco Historico de Vicalvaro flat_False_True_True_False_1_(80, 90]_bj"
+Casco Historico de Vallecas,flat,False,True,False,False,1,"(70, 80]",int,1,1284,1284,95000,95000,3.00,2021,M01,W02,fe75b1,Casco Historico de Vallecas fe75b1
+Casco Historico de Vallecas,flat,False,True,True,False,1,"(50, 60]",int,1,1796,1796,97000,97000,1.00,2021,M01,W02,fe55b1lf,Casco Historico de Vallecas fe55b1lf
+Casco Historico de Vallecas,flat,False,True,True,False,1,"(40, 50]",int,1,2039,2039,99900,99900,1.00,2021,M01,W02,fe45b1lf,Casco Historico de Vallecas fe45b1lf
+Berruguete,flat,False,True,False,False,1,"(30, 40]",bj,1,2970,2970,98000,98000,1.00,2021,M01,W02,fe35b1bj,Berruguete fe35b1bj
+Berruguete,flat,False,False,False,False,1,"(30, 40]",bj,1,2794,2794,95000,95000,2.00,2021,M01,W02,f35b1bj,Berruguete f35b1bj
+Pinar del Rey,flat,False,False,False,False,1,"(30, 40]",int,1,2474,2474,94000,94000,1.00,2021,M01,W02,f35b1,Pinar del Rey f35b1
+Acacias,flat,False,False,True,False,1,"(10, 20]",int,1,5500,5500,99000,99000,1.00,2021,M01,W02,"flat_False_False_True_False_1_(10, 20]_int","Acacias flat_False_False_True_False_1_(10, 20]_int"
+Almendrales,flat,False,True,True,False,1,"(50, 60]",bj,1,1617,1617,97000,97000,2.00,2021,M01,W02,"flat_False_True_True_False_1_(50, 60]_bj","Almendrales flat_False_True_True_False_1_(50, 60]_bj"
+Almendrales,flat,False,False,False,False,1,"(50, 60]",bj,1,1904,1904,99000,99000,1.00,2021,M01,W02,f55b1bj,Almendrales f55b1bj
+Almendrales,flat,False,False,False,False,1,"(40, 50]",int,1,2130,2130,98000,98000,2.00,2021,M01,W02,f45b1,Almendrales f45b1
+Almendrales,flat,False,False,False,False,1,"(30, 40]",int,1,2125,2125,85000,85000,1.00,2021,M01,W02,f35b1,Almendrales f35b1
+Aguilas,flat,False,True,False,False,2,"(50, 60]",bj,1,1650,1650,99000,99000,2.00,2021,M01,W02,"flat_False_True_False_False_2_(50, 60]_bj","Aguilas flat_False_True_False_False_2_(50, 60]_bj"
+Aguilas,flat,False,True,True,False,1,"(60, 70]",int,1,1572,1572,95900,95900,2.00,2021,M01,W02,fe65b1lf,Aguilas fe65b1lf
+Aguilas,flat,False,True,True,False,1,"(50, 60]",int,1,1542,1542,91000,91000,2.00,2021,M01,W02,fe55b1lf,Aguilas fe55b1lf
+Aeropuerto,flat,False,False,False,False,1,"(70, 80]",int,1,919,919,73500,73500,3.00,2021,M01,W02,f75b1,Aeropuerto f75b1
+Abrantes,flat,False,True,False,False,2,"(70, 80]",bj,1,1168,1168,89900,89900,3.00,2021,M01,W02,"flat_False_True_False_False_2_(70, 80]_bj","Abrantes flat_False_True_False_False_2_(70, 80]_bj"
+Berruguete,flat,False,False,False,False,1,"(20, 30]",int,1,3442,3442,89500,89500,1.00,2021,M01,W02,f25b1,Berruguete f25b1
+Abrantes,flat,False,True,False,False,1,"(70, 80]",int,1,1113,1113,79000,79000,3.00,2021,M01,W02,fe75b1,Abrantes fe75b1
+Abrantes,flat,False,True,False,False,1,"(70, 80]",bj,1,1212,1212,90900,90900,3.00,2021,M01,W02,fe75b1bj,Abrantes fe75b1bj
+Abrantes,flat,False,True,False,False,1,"(60, 70]",int,1,1414,1414,99000,99000,3.00,2021,M01,W02,fe65b1,Abrantes fe65b1
+Abrantes,flat,False,True,False,False,1,"(60, 70]",bj,1,1302,1302,82000,82000,3.00,2021,M01,W02,fe65b1bj,Abrantes fe65b1bj
+Abrantes,flat,False,True,False,False,1,"(50, 60]",bj,1,1408,1408,84500,84500,2.00,2021,M01,W02,fe55b1bj,Abrantes fe55b1bj
+Abrantes,flat,False,True,False,False,1,"(40, 50]",int,1,2250,2250,99000,99000,2.00,2021,M01,W02,fe45b1,Abrantes fe45b1
+Abrantes,flat,False,False,False,False,1,"(70, 80]",int,1,1227,1227,94500,94500,3.00,2021,M01,W02,f75b1,Abrantes f75b1
+Abrantes,flat,False,False,False,False,1,"(50, 60]",int,1,1743,1743,88900,88900,2.00,2021,M01,W02,f55b1,Abrantes f55b1
+Almendrales,flat,False,True,False,False,1,"(30, 40]",int,1,2450,2450,98000,98000,2.00,2021,M01,W02,fe35b1,Almendrales fe35b1
+Almendrales,flat,False,True,False,False,1,"(40, 50]",bj,1,2314,2314,99500,99500,2.00,2021,M01,W02,fe45b1bj,Almendrales fe45b1bj
+Almendrales,flat,False,True,False,False,1,"(50, 60]",bj,1,1514,1514,78750,78750,2.00,2021,M01,W02,fe55b1bj,Almendrales fe55b1bj
+Aluche,flat,False,False,False,False,1,"(40, 50]",bj,1,1989,1989,89500,89500,2.00,2021,M01,W02,f45b1bj,Aluche f45b1bj
+Berruguete,flat,False,False,False,False,1,"(20, 30]",int,1,3442,3442,89500,89500,1.00,2021,M01,W02,f25b1,Berruguete f25b1
+Bellas Vistas,flat,False,True,False,False,1,"(40, 50]",int,1,1800,1800,90000,90000,2.00,2021,M01,W02,fe45b1,Bellas Vistas fe45b1
+Bellas Vistas,flat,False,False,False,False,1,"(30, 40]",bj,1,2829,2829,99000,99000,1.00,2021,M01,W02,f35b1bj,Bellas Vistas f35b1bj
+Bellas Vistas,flat,False,False,False,False,1,"(20, 30]",int,1,3030,3030,90900,90900,1.00,2021,M01,W02,f25b1,Bellas Vistas f25b1
+Bellas Vistas,flat,False,False,True,False,1,"(50, 60]",int,1,1667,1667,90000,90000,2.00,2021,M01,W02,"flat_False_False_True_False_1_(50, 60]_int","Bellas Vistas flat_False_False_True_False_1_(50, 60]_int"
+Bellas Vistas,flat,False,False,True,False,1,"(20, 30]",bj,1,3103,3103,90000,90000,0.00,2021,M01,W02,"flat_False_False_True_False_1_(20, 30]_bj","Bellas Vistas flat_False_False_True_False_1_(20, 30]_bj"
+Amposta,flat,False,True,False,False,2,"(40, 50]",bj,1,1800,1800,90000,90000,2.00,2021,M01,W02,"flat_False_True_False_False_2_(40, 50]_bj","Amposta flat_False_True_False_False_2_(40, 50]_bj"
+Amposta,flat,False,True,False,False,1,"(60, 70]",bj,1,1452,1452,90000,90000,2.00,2021,M01,W02,fe65b1bj,Amposta fe65b1bj
+Amposta,flat,False,True,False,False,1,"(70, 80]",int,1,1338,1338,95000,95000,3.00,2021,M01,W02,fe75b1,Amposta fe75b1
+Amposta,flat,False,False,False,False,1,"(50, 60]",int,1,1564,1564,82900,82900,2.00,2021,M01,W02,f55b1,Amposta f55b1
+Ambroz,flat,False,True,False,False,1,"(50, 60]",bj,1,1509,1509,83000,83000,1.00,2021,M01,W02,fe55b1bj,Ambroz fe55b1bj
+Ambroz,flat,False,True,False,False,1,"(40, 50]",int,1,2089,2089,94000,94000,1.00,2021,M01,W02,fe45b1,Ambroz fe45b1
+Ambroz,flat,False,False,False,1.0,1,"(50, 60]",int,1,1754,1754,100000,100000,3.00,2021,M01,W02,"flat_False_False_False_1.0_1_(50, 60]_int","Ambroz flat_False_False_False_1.0_1_(50, 60]_int"
+Ambroz,flat,False,False,False,False,1,"(50, 60]",int,1,1754,1754,100000,100000,3.00,2021,M01,W02,f55b1,Ambroz f55b1
+Aluche,flat,False,True,False,False,1,"(70, 80]",int,1,1320,1320,99000,99000,2.00,2021,M01,W02,fe75b1,Aluche fe75b1
+Aluche,flat,False,False,False,False,1,"(70, 80]",int,1,1250,1250,90000,90000,2.00,2021,M01,W02,f75b1,Aluche f75b1
+Aluche,flat,False,False,False,False,1,"(40, 50]",int,1,1989,1989,89500,89500,2.00,2021,M01,W02,f45b1,Aluche f45b1
+Entrevias,flat,False,False,False,False,1,"(40, 50]",int,1,2179,2179,91500,91500,1.00,2021,M01,W02,f45b1,Entrevias f45b1
+Entrevias,flat,False,False,False,False,1,"(60, 70]",bj,1,1143,1143,80000,80000,3.00,2021,M01,W02,f65b1bj,Entrevias f65b1bj
+Entrevias,flat,False,False,False,False,1,"(70, 80]",bj,1,1160,1160,87000,87000,2.00,2021,M01,W02,f75b1bj,Entrevias f75b1bj
+Numancia,flat,False,True,False,False,1,"(60, 70]",int,1,1471,1471,100000,100000,3.00,2021,M01,W02,fe65b1,Numancia fe65b1
+Palacio,flat,False,False,False,False,2,"(10, 20]",bj,1,5000,5000,100000,100000,0.00,2021,M01,W02,"flat_False_False_False_False_2_(10, 20]_bj","Palacio flat_False_False_False_False_2_(10, 20]_bj"
+Palacio,flat,False,False,False,False,1,"(10, 20]",bj,1,5263,5263,100000,100000,2.00,2021,M01,W02,"flat_False_False_False_False_1_(10, 20]_bj","Palacio flat_False_False_False_False_1_(10, 20]_bj"
+Palacio,flat,False,False,False,False,1,"(10, 20]",int,1,6714,6714,94000,94000,1.00,2021,M01,W02,"flat_False_False_False_False_1_(10, 20]_int","Palacio flat_False_False_False_False_1_(10, 20]_int"
+Orcasitas,flat,False,True,False,False,1,"(60, 70]",bj,1,1439,1439,95000,95000,3.00,2021,M01,W02,fe65b1bj,Orcasitas fe65b1bj
+Opañel,flat,False,True,False,False,1,"(60, 70]",int,1,1500,1500,99000,99000,2.00,2021,M01,W02,fe65b1,Opañel fe65b1
+Opañel,flat,False,True,False,False,1,"(40, 50]",int,1,1900,1900,95000,95000,2.00,2021,M01,W02,fe45b1,Opañel fe45b1
+Numancia,flat,False,True,False,False,1,"(80, 90]",bj,1,1060,1060,89000,89000,0.00,2021,M01,W02,"flat_False_True_False_False_1_(80, 90]_bj","Numancia flat_False_True_False_False_1_(80, 90]_bj"
+Numancia,flat,False,True,False,False,1,"(70, 80]",int,1,1338,1338,99000,99000,3.00,2021,M01,W02,fe75b1,Numancia fe75b1
+Numancia,flat,False,True,False,False,1,"(20, 30]",int,1,2593,2593,70000,70000,1.00,2021,M01,W02,fe25b1,Numancia fe25b1
+Entrevias,flat,False,True,True,False,1,"(50, 60]",int,1,1636,1636,90000,90000,1.00,2021,M01,W02,fe55b1lf,Entrevias fe55b1lf
+Numancia,flat,False,True,True,False,1,"(50, 60]",bj,1,1633,1633,98000,98000,2.00,2021,M01,W02,"flat_False_True_True_False_1_(50, 60]_bj","Numancia flat_False_True_True_False_1_(50, 60]_bj"
+Numancia,flat,False,False,False,False,1,"(70, 80]",int,1,1234,1234,95000,95000,3.00,2021,M01,W02,f75b1,Numancia f75b1
+Numancia,flat,False,False,False,False,1,"(60, 70]",int,1,1431,1431,93000,93000,1.00,2021,M01,W02,f65b1,Numancia f65b1
+Numancia,flat,False,False,False,False,1,"(50, 60]",int,1,1686,1686,99500,99500,3.00,2021,M01,W02,f55b1,Numancia f55b1
+Numancia,flat,False,False,False,False,1,"(40, 50]",int,1,1527,1527,70250,70250,2.00,2021,M01,W02,f45b1,Numancia f45b1
+Numancia,flat,False,False,False,False,1,"(30, 40]",bj,1,2257,2257,79000,79000,1.00,2021,M01,W02,f35b1bj,Numancia f35b1bj
+Numancia,flat,False,False,False,False,1,"(20, 30]",bj,1,2263,2263,67900,67900,1.00,2021,M01,W02,f25b1bj,Numancia f25b1bj
+Numancia,flat,False,False,False,False,1,"(60, 70]",int,1,1613,1613,100000,100000,3.00,2021,M01,W02,f65b1,Numancia f65b1
+Palacio,flat,False,True,False,False,1,"(20, 30]",bj,1,4500,4500,99000,99000,1.00,2021,M01,W02,fe25b1bj,Palacio fe25b1bj
+Palomeras Bajas,flat,False,False,False,False,1,"(50, 60]",int,1,1375,1375,77000,77000,3.00,2021,M01,W02,f55b1,Palomeras Bajas f55b1
+Palomeras Bajas,flat,False,False,True,False,1,"(50, 60]",bj,1,1638,1638,95000,95000,3.00,2021,M01,W02,"flat_False_False_True_False_1_(50, 60]_bj","Palomeras Bajas flat_False_False_True_False_1_(50, 60]_bj"
+Palomeras Bajas,flat,False,False,False,False,1,"(30, 40]",bj,1,3000,3000,99000,99000,0.00,2021,M01,W02,f35b1bj,Palomeras Bajas f35b1bj
+Pilar,flat,False,True,True,False,1,"(20, 30]",int,1,3827,3827,99500,99500,0.00,2021,M01,W02,fe25b1lf,Pilar fe25b1lf
+Palos de Moguer,flat,False,False,False,False,1,"(30, 40]",int,1,2632,2632,100000,100000,0.00,2021,M01,W02,f35b1,Palos de Moguer f35b1
+Palomeras sureste,flat,False,True,False,False,1,"(30, 40]",bj,1,1919,1919,71000,71000,1.00,2021,M01,W02,fe35b1bj,Palomeras sureste fe35b1bj
+Palomeras sureste,flat,False,True,True,False,1,"(50, 60]",int,1,1417,1417,85000,85000,2.00,2021,M01,W02,fe55b1lf,Palomeras sureste fe55b1lf
+Palomeras sureste,flat,False,True,False,False,1,"(20, 30]",int,1,2160,2160,64800,64800,1.00,2021,M01,W02,fe25b1,Palomeras sureste fe25b1
+Palomeras sureste,flat,False,False,False,False,1,"(60, 70]",int,1,1508,1508,98000,98000,3.00,2021,M01,W02,f65b1,Palomeras sureste f65b1
+Palomeras sureste,flat,False,False,False,False,1,"(50, 60]",int,1,1550,1550,89900,89900,2.00,2021,M01,W02,f55b1,Palomeras sureste f55b1
+Palomeras sureste,flat,False,False,False,False,1,"(20, 30]",int,1,2333,2333,70000,70000,1.00,2021,M01,W02,f25b1,Palomeras sureste f25b1
+Palomeras Bajas,flat,False,True,False,False,2,"(40, 50]",int,1,1838,1838,91900,91900,1.00,2021,M01,W02,"flat_False_True_False_False_2_(40, 50]_int","Palomeras Bajas flat_False_True_False_False_2_(40, 50]_int"
+Palomeras Bajas,flat,False,True,False,False,1,"(70, 80]",bj,1,792,792,61000,61000,3.00,2021,M01,W02,fe75b1bj,Palomeras Bajas fe75b1bj
+Palomeras Bajas,flat,False,True,False,False,1,"(30, 40]",bj,1,1969,1969,63000,63000,2.00,2021,M01,W02,fe35b1bj,Palomeras Bajas fe35b1bj
+Palomeras Bajas,flat,False,True,True,False,1,"(40, 50]",int,1,2063,2063,99000,99000,3.00,2021,M01,W02,fe45b1lf,Palomeras Bajas fe45b1lf
+Palomeras Bajas,flat,False,True,True,False,1,"(40, 50]",bj,1,1913,1913,88000,88000,0.00,2021,M01,W02,"flat_False_True_True_False_1_(40, 50]_bj","Palomeras Bajas flat_False_True_True_False_1_(40, 50]_bj"
+Palomeras Bajas,flat,False,False,False,False,2,"(90, 100]",bj,1,957,957,91907,91907,1.00,2021,M01,W02,"flat_False_False_False_False_2_(90, 100]_bj","Palomeras Bajas flat_False_False_False_False_2_(90, 100]_bj"
+Palomeras Bajas,flat,False,False,False,False,1,"(60, 70]",int,1,1154,1154,75000,75000,3.00,2021,M01,W02,f65b1,Palomeras Bajas f65b1
+Palomeras Bajas,flat,False,False,False,False,1,"(50, 60]",int,1,1511,1511,84600,84600,2.00,2021,M01,W02,f55b1,Palomeras Bajas f55b1
+Palomeras Bajas,flat,False,False,False,False,1,"(40, 50]",int,1,1890,1890,94500,94500,2.00,2021,M01,W02,f45b1,Palomeras Bajas f45b1
+Numancia,flat,False,False,False,False,1,"(60, 70]",bj,1,1431,1431,93000,93000,2.00,2021,M01,W02,f65b1bj,Numancia f65b1bj
+Numancia,chalet,False,False,False,False,1,"(50, 60]",bj,1,1296,1296,70000,70000,2.00,2021,M01,W02,"chalet_False_False_False_False_1_(50, 60]_bj","Numancia chalet_False_False_False_False_1_(50, 60]_bj"
+Moscardo,flat,False,True,True,False,1,"(50, 60]",int,1,1809,1809,99500,99500,2.00,2021,M01,W02,fe55b1lf,Moscardo fe55b1lf
+Los Carmenes,flat,False,False,False,False,1,"(40, 50]",int,1,1951,1951,91700,91700,2.00,2021,M01,W02,f45b1,Los Carmenes f45b1
+Los Angeles,flat,False,True,False,False,1,"(70, 80]",int,1,1332,1332,99900,99900,3.00,2021,M01,W02,fe75b1,Los Angeles fe75b1
+Los Angeles,flat,False,True,False,False,1,"(50, 60]",bj,1,1664,1664,99840,99840,3.00,2021,M01,W02,fe55b1bj,Los Angeles fe55b1bj
+Lavapies-Embajadores,flat,False,True,False,False,1,"(40, 50]",bj,1,2020,2020,99000,99000,1.00,2021,M01,W02,fe45b1bj,Lavapies-Embajadores fe45b1bj
+Lavapies-Embajadores,flat,False,True,True,False,1,"(10, 20]",int,1,4450,4450,89000,89000,1.00,2021,M01,W02,"flat_False_True_True_False_1_(10, 20]_int","Lavapies-Embajadores flat_False_True_True_False_1_(10, 20]_int"
+Lavapies-Embajadores,flat,False,False,False,False,1,"(20, 30]",bj,1,3000,3000,78000,78000,1.00,2021,M01,W02,f25b1bj,Lavapies-Embajadores f25b1bj
+Lavapies-Embajadores,flat,False,False,True,False,1,"(70, 80]",int,1,1254,1254,89000,89000,2.00,2021,M01,W02,"flat_False_False_True_False_1_(70, 80]_int","Lavapies-Embajadores flat_False_False_True_False_1_(70, 80]_int"
+Lavapies-Embajadores,flat,False,False,True,False,1,"(30, 40]",bj,1,3194,3194,99000,99000,1.00,2021,M01,W02,"flat_False_False_True_False_1_(30, 40]_bj","Lavapies-Embajadores flat_False_False_True_False_1_(30, 40]_bj"
+Lavapies-Embajadores,flat,False,False,True,False,1,"(20, 30]",bj,1,3300,3300,99000,99000,2.00,2021,M01,W02,"flat_False_False_True_False_1_(20, 30]_bj","Lavapies-Embajadores flat_False_False_True_False_1_(20, 30]_bj"
+Lavapies-Embajadores,flat,False,False,False,False,1,"(20, 30]",int,1,3560,3560,89000,89000,0.00,2021,M01,W02,f25b1,Lavapies-Embajadores f25b1
+Hellin,flat,False,True,False,False,1,"(50, 60]",bj,1,1754,1754,100000,100000,3.00,2021,M01,W02,fe55b1bj,Hellin fe55b1bj
+Hellin,flat,False,False,False,False,1,"(50, 60]",int,1,1753,1753,99900,99900,3.00,2021,M01,W02,f55b1,Hellin f55b1
+Hellin,flat,False,False,False,False,1,"(40, 50]",int,1,1918,1918,94000,94000,2.00,2021,M01,W02,f45b1,Hellin f45b1
+Hellin,flat,False,False,False,False,1,"(40, 50]",int,1,2063,2063,99000,99000,2.00,2021,M01,W02,f45b1,Hellin f45b1
+Fuente del Berro,flat,False,True,True,False,1,"(20, 30]",int,1,4318,4318,95000,95000,0.00,2021,M01,W02,fe25b1lf,Fuente del Berro fe25b1lf
+Entrevias,flat,False,True,False,False,1,"(80, 90]",int,1,1102,1102,97000,97000,3.00,2021,M01,W02,fe85b1,Entrevias fe85b1
+Entrevias,flat,False,True,False,False,1,"(60, 70]",bj,1,1446,1446,94000,94000,2.00,2021,M01,W02,fe65b1bj,Entrevias fe65b1bj
+Entrevias,flat,False,True,True,False,2,"(70, 80]",int,1,1139,1139,90000,90000,3.00,2021,M01,W02,"flat_False_True_True_False_2_(70, 80]_int","Entrevias flat_False_True_True_False_2_(70, 80]_int"
+Los Angeles,flat,False,True,False,False,1,"(80, 90]",int,1,1110,1110,99900,99900,3.00,2021,M01,W02,fe85b1,Los Angeles fe85b1
+Los Carmenes,flat,False,True,True,False,1,"(30, 40]",int,1,2708,2708,97500,97500,0.00,2021,M01,W02,fe35b1lf,Los Carmenes fe35b1lf
+Moscardo,flat,False,True,True,False,1,"(40, 50]",int,1,2302,2302,99000,99000,2.00,2021,M01,W02,fe45b1lf,Moscardo fe45b1lf
+Los Carmenes,flat,False,True,True,False,1,"(70, 80]",int,1,1236,1236,89000,89000,2.00,2021,M01,W02,fe75b1lf,Los Carmenes fe75b1lf
+Moscardo,flat,False,False,False,False,1,"(40, 50]",int,1,1889,1889,85000,85000,2.00,2021,M01,W02,f45b1,Moscardo f45b1
+Malasaña-Universidad,flat,False,True,False,False,1,"(10, 20]",bj,1,4250,4250,85000,85000,0.00,2021,M01,W02,"flat_False_True_False_False_1_(10, 20]_bj","Malasaña-Universidad flat_False_True_False_False_1_(10, 20]_bj"
+Malasaña-Universidad,flat,False,False,False,False,1,"(10, 20]",bj,1,4200,4200,63000,63000,0.00,2021,M01,W02,"flat_False_False_False_False_1_(10, 20]_bj","Malasaña-Universidad flat_False_False_False_False_1_(10, 20]_bj"
+Lucero,flat,False,True,False,False,1,"(70, 80]",bj,1,1253,1253,94000,94000,3.00,2021,M01,W02,fe75b1bj,Lucero fe75b1bj
+Lucero,flat,False,True,False,False,1,"(40, 50]",bj,1,2321,2321,97500,97500,1.00,2021,M01,W02,fe45b1bj,Lucero fe45b1bj
+Lucero,flat,False,True,False,False,1,"(20, 30]",bj,1,3167,3167,95000,95000,1.00,2021,M01,W02,fe25b1bj,Lucero fe25b1bj
+Lucero,flat,False,True,True,False,1,"(30, 40]",int,1,2595,2595,96000,96000,1.00,2021,M01,W02,fe35b1lf,Lucero fe35b1lf
+Lucero,flat,False,False,False,False,2,"(50, 60]",int,1,1593,1593,94000,94000,1.00,2021,M01,W02,"flat_False_False_False_False_2_(50, 60]_int","Lucero flat_False_False_False_False_2_(50, 60]_int"
+Lucero,flat,False,False,False,False,2,"(50, 60]",bj,1,1593,1593,94000,94000,0.00,2021,M01,W02,"flat_False_False_False_False_2_(50, 60]_bj","Lucero flat_False_False_False_False_2_(50, 60]_bj"
+Lucero,flat,False,False,False,False,1,"(40, 50]",int,1,2321,2321,97500,97500,1.00,2021,M01,W02,f45b1,Lucero f45b1
+Lucero,flat,False,False,False,False,1,"(40, 50]",int,1,2321,2321,97500,97500,1.00,2021,M01,W02,f45b1,Lucero f45b1
+Los Rosales,flat,False,True,False,False,1,"(80, 90]",int,1,1124,1124,95500,95500,3.00,2021,M01,W02,fe85b1,Los Rosales fe85b1
+Los Rosales,flat,False,True,False,False,1,"(60, 70]",bj,1,1094,1094,70000,70000,2.00,2021,M01,W02,fe65b1bj,Los Rosales fe65b1bj
+Los Rosales,flat,False,True,True,False,1,"(60, 70]",int,1,1323,1323,86000,86000,2.00,2021,M01,W02,fe65b1lf,Los Rosales fe65b1lf
+Los Rosales,flat,False,True,True,False,1,"(50, 60]",int,1,1415,1415,84900,84900,2.00,2021,M01,W02,fe55b1lf,Los Rosales fe55b1lf
+Los Rosales,flat,False,False,False,False,1,"(40, 50]",int,1,1667,1667,80000,80000,2.00,2021,M01,W02,f45b1,Los Rosales f45b1
+Los Rosales,flat,False,False,False,False,1,"(50, 60]",int,1,1150,1150,69000,69000,3.00,2021,M01,W02,f55b1,Los Rosales f55b1
+Zofio,flat,False,True,False,False,1,"(70, 80]",int,1,958,958,68000,68000,2.00,2021,M01,W02,fe75b1,Zofio fe75b1
