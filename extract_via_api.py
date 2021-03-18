@@ -11,6 +11,8 @@ def get_oauth_token():
     url_token = "https://api.idealista.com/oauth/token"
     apikey = 'xxd1f49llzv0eglzg0w8n8m0adxxifxw'     # sent by idealista
     secret = 'rSahNvEUxg29'                         # sent by idealista
+    # apikey = '5rpvqg76ub95zxl5pvm5eyvk5xvyxudq'     # sent by idealista tonytroker
+    # secret = 'RrFp0MSpTBfF'                         # sent by idealista tonytroker
     keysecret = apikey + ':' + secret
     auth = base64.b64encode(keysecret.encode("utf-8"))
     content_type = 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -40,7 +42,8 @@ def search_api(token, url_search):
 
 
 # VARIABLES
-PATH = 'C:/Users/aasensio/PycharmProjects/test_inmob/Data/Madrid/'
+# PATH = 'C:/Users/aasensio/PycharmProjects/test_inmob/Data/Madrid/API/'
+PATH = 'C:/Users/aasensio/Google Drive/Personal/Python/Data_inmob/API/raw/'
 hora = str(datetime.datetime.today().strftime("%Y-%m-%d_%H-%M"))
 dia = str(datetime.date.today())
 
@@ -64,20 +67,20 @@ center, distance = '0', 0
 lugares = [('0-EU-ES-28-07-001-079-17', 'villaverde'), ('0-EU-ES-28-07-001-079-13', 'pte_de_vallecas'),
            ('0-EU-ES-28-07-001-079-11', 'carabanchel'), ('0-EU-ES-28-07-001-079-18', 'villa_vallecas'),
            ('0-EU-ES-28-07-001-079-12', 'usera'), ("0-EU-ES-28-07-001-079", "madrid")]
-minPrice = 60000
-maxPrice = 120000
+minPrice =  60000
+maxPrice = 115000
 sinceDate = 'M'  # W:last week, M: last month, T:last day (for rent except rooms), Y: last 2 days (sale and rooms)
 order = 'priceDown'
 sort = 'desc'
 url_api = 'https://api.idealista.com/3.5/es/search??'
 url_0 = f'{url_api}locale={locale}&maxItems=50&operation={operation}&country={country}&propertyType={propertyType}' + \
-        f'&sort={sort}&order={order}&language=es&flat=True&preservation={preservation}'
-limit = 50
+        f'&sort={sort}&order={order}&language=es&flat=True'  # &preservation={preservation}'
+limit = 40
 
 
 if __name__ == '__main__':
-    exit()
     try:
+        # 1/0
         for locationId, zona in lugares[-1:]:
             oauth = get_oauth_token()
 
@@ -106,15 +109,15 @@ if __name__ == '__main__':
                 if df.shape[0] == 0:
                     break
 
-                # Salvar Resultados
-                # path_save = PATH + 'Data/idealista_%s_%s_%s.json' % (zona, hora, i)
-                # df.to_json(path_save, orient='records', lines=True)
+                # Salvar Resultados Intermedios
+                path_save = PATH + '/idealista_%s_%s_part_%s.json' % (zona, dia, i)
+                df.to_json(path_save, orient='records', lines=True)
                 df_tot = df_tot.append(df, ignore_index=True, sort=True)
 
                 # Fin de las iteraciones
                 if i == results['totalPages']:
                     break
-                break  # TODO a eliminar
+
             # Salvar resultados Totales por zona
             path_save = PATH + '/idealista_api_%s_%s.json' % (zona, dia)
             df_tot['Total'] = total

@@ -24,13 +24,16 @@ class GetHouseByGmail:
 
     @staticmethod
     def corregir_direccion(direccion):
+
+        if len(direccion) != 4 :
+            print(direccion)
         try:
             portal_ok = False
             # Caso con solo un campo
             if len(direccion) == 1:
                 direccion.insert(0, None)
                 direccion.insert(1, 's/n')
-                direccion.append(direccion[2], sort=True)
+                direccion.append(direccion[2])
                 return direccion
 
             # Caso: tres campos, falta el portal
@@ -42,7 +45,7 @@ class GetHouseByGmail:
 
             # Caso: tres campos, portal ok
             if portal_ok:
-                direccion.append(direccion[2], sort=True)
+                direccion.append(direccion[2])
 
             # Caso: 2 campos, la zona y7o ciudad, sin piso ni calle
             if len(direccion) == 2 and 'Laguna de Duero' not in direccion[-1]:
@@ -51,11 +54,14 @@ class GetHouseByGmail:
 
             if len(direccion) == 2 and 'Laguna de Duero' in direccion[-1]:
                 direccion.insert(1, 's/n')
-                direccion.append(direccion[2], sort=True)
+                direccion.append(direccion[2])
+
+            if len(direccion) == 5 and ' Madrid' in direccion:
+                direccion.remove(' Madrid')
 
             return direccion
         except Exception as error_cd:
-            print(direccion)
+            print("Error", direccion)
             print("Error in %s: %s" % (str(inspect.currentframe().f_code.co_name), error_cd))
             raise ValueError(error_cd)
 
@@ -88,7 +94,6 @@ class GetHouseByGmail:
             df['tmp'] = df['Direccion'].apply(lambda a: re.sub(r'^.+? en ', '', a))
             df['tmp'] = df['tmp'].str.split(',', expand=False)
             df['tmp'] = df['tmp'].apply(lambda a: a if len(a) == 4 else self.corregir_direccion(a))
-
             df[['Calle', 'Portal', 'Zona', 'Ciudad']] = pd.DataFrame(df['tmp'].tolist())
             # eliminar espacio vacios antes y despues, poner minuscular
             for w in ['Calle', 'Portal', 'Zona', 'Ciudad']:
@@ -392,19 +397,15 @@ def save_houses(data, save_files = True):
 
 
 if __name__ == '__main__':
-
-    #email_account = "asesorantonioasensiog@gmail.com"
     email_account = "atanorcapital@gmail.com"
     user = email_account
-    #user_password = "Adrian13Marco18"
     user_password = "Atanor2020"
     cols_num = ['Precio', 'Precio_old', 'Tamaño']
-    subjects = ['Nuevo piso en tu búsqueda', 'Nuevo ático', 'Nuevo duplex', \
-                '"Resumen diario de nuevos anuncios"', 'Bajada de precio']
-    # subjects = ['Bajada de precio']
+    subjects = ['Nuevo piso en tu búsqueda', 'Nuevo ático', 'Nuevo duplex', '"Resumen diario de nuevos anuncios"',
+                'Bajada de precio']
 
     resultados = pd.DataFrame()
-    for subject in subjects * 4:
+    for subject in subjects * 5:
 
         resultado = GetHouseByGmail().get_emails("smtp.gmail.com", email_account, user_password, subject, 1, True)
         resultados = resultados.append(resultado, ignore_index=True, sort=True)

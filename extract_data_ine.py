@@ -120,7 +120,7 @@ def data_demanda_google(data_tmp, campo):
 
 
 # PATH
-path_madrid = 'C:/Users/aasensio/PycharmProjects/test_inmob/Data/Madrid/'
+path_madrid = 'C:/Users/aasensio/PycharmProjects/test_inmob/Data/Madrid/Demanda/'
 path_ine_hipotecas_constituidas_api_13896 = 'http://servicios.ine.es/wstempus/js/es/DATOS_TABLA/13896?tip=AM'
 path_ine_demografia_api_2881 = 'http://servicios.ine.es/wstempus/js/es/DATOS_TABLA/2881?tip=AM'
 # path_ine_demografia_api_36726 = 'http://servicios.ine.es/wstempus/js/es/DATOS_TABLA/36726?tip=AM'
@@ -133,6 +133,7 @@ data = pd.DataFrame()
 
 # DEMANDA GOOGLE
 for x in ['pisos baratos', 'hipotecas']:
+    break
     data = data_demanda_google(data, x)
 
 # DEMOGRAFIA
@@ -151,6 +152,9 @@ for x in ['Importe Medio', 'Numero de hipotecas', 'Importe de hipotecas']:
     data[x] = data[x].fillna(0).astype('int64')
 data[x] = data[x].fillna('')
 
-print(data.loc[((data['Periodo'] == 'M10') | (data['Periodo'] == 'A') | (data['Periodo'] == 'M01')) & (data['Anyo'] >= 2020)])
-data.to_csv(path_madrid + 'data madrid all.csv', index=False, float_format='%.0f')
+print(data.sort_values(['Anyo', 'Periodo']).head(2))
+print(data.sort_values(['Anyo', 'Periodo']).tail(2))
+
+path_save = 'C:/Users/aasensio/Google Drive/Personal/Python/Data_inmob/Demanda/raw/'
+data.to_csv(path_save + 'data madrid all.csv', index=False, float_format='%.0f')
 

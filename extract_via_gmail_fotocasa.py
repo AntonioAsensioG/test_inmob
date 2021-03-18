@@ -44,9 +44,10 @@ class GetHouseByGmail:
                 soup = BeautifulSoup(body, 'lxml')
                 subj = decode_header(tmsg['Subject'])[0][0].decode().lower()
                 if " en varios distritos de madrid" in subj or "¡visítalos sin salir de casa!" in subj:
-                    divs_soup = soup.find_all('table',
-                        attrs={'align': "center", 'border': "0", 'cellpadding': "0", 'cellspacing': "0",
-                            'role': "presentation", 'style': "background:#f5f5f5;background-color:#f5f5f5;width:100%;"})
+                    divs_soup = soup\
+                        .find_all('table', attrs={'align': "center", 'border': "0", 'cellpadding': "0",
+                                                  'cellspacing': "0", 'role': "presentation",
+                                                  'style': "background:#f5f5f5;background-color:#f5f5f5;width:100%;"})
 
                     for i, x in enumerate(divs_soup):
                         texto = divs_soup[i].getText()
@@ -57,10 +58,12 @@ class GetHouseByGmail:
                                       'Habitaciones': int(next(iter(re.findall(r'(\d+)(?: habs?)', texto)), -1)),
                                       'Tamaño': int(next(iter(re.findall(r'(\d+)(?: m)', texto)), -1)),
                                       'Baños': int(next(iter(re.findall(r'(\d+)(?: baños?)', texto)), -1)),
-                                      'Zona': next(iter(re.findall(r'Piso .+?$', texto)[0]),''),
+                                      'Zona': next(iter(re.findall(r'Piso .+?$', texto)), '').replace('Piso en ', ''),
                                       'Url': divs_soup[i].a['href'].split('[')[0]}
-
                         df_houses = df_houses.append(pd.DataFrame([dict_house]), ignore_index=True, sort=True)
+
+                    if df_houses.empty:
+                        continue
 
                     df_houses['Fecha'] = date
                     df_houses['Id'] = df_houses['Url'].apply(lambda z: int(z.split('/')[8]))
@@ -109,11 +112,18 @@ class GetHouseByGmail:
                     break
 
                 # recorremos lista de mayor a menor (mas recientes primero)
-                for item in lstids:
+                for item in lstids[0:1]:
                     ok, data = imap.fetch(item, '(RFC822)')  # el parámetro id esperado es tipo cadena
                     for contenido in data:
                         if isinstance(contenido, tuple):  # comprueba que 'contenido' sea una tupla
+                            #print(contenido)
                             msg = email.message_from_string(contenido[1].decode())  # recuperamos información del email:
+                            print(type(msg))
+                            print('\nkeys',msg.keys())
+                            print('\nitems',msg.items())
+                            print('\nget_content_type', msg.get_content_type())
+                            print('\nget_content_maintype', msg.get_content_maintype())
+                            print('\nContent-Type', msg['Content-Type'])
 
                             try:
                                 print(decode_header(msg['Subject'])[0][0].decode())
@@ -139,7 +149,7 @@ class GetHouseByGmail:
                                     imap.store(item, '+FLAGS', r'\Deleted')
                                     imap.store(item, '-FLAGS', r'Inbox')
                                     imap.expunge()
-
+                    exit()  # TODO
             print("\tContenidos totales recuperados %d" % len(content_emails))
             print(content_emails)
             return content_emails
@@ -221,7 +231,7 @@ if __name__ == '__main__':
 
     resultados = pd.DataFrame()
     for subject in subjects * 4:
-        resultado = GetHouseByGmail().get_emails("smtp.gmail.com", email_account, user_password, subject, 1, True)
+        resultado = GetHouseByGmail().get_emails("smtp.gmail.com", email_account, user_password, subject, 2, True)
         resultados = resultados.append(resultado, ignore_index=True, sort=True)
 
     if not resultados.empty:
